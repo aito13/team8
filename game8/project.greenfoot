@@ -1,11 +1,20 @@
 #Greenfoot project file
 class.A.image=lobster.png
 class.D.image=car03-n.png
+<<<<<<< HEAD
+=======
+class.a.image=wombat.png
+class.c.image=ladybug_02.png
+>>>>>>> bb79735f280ef286fa17bf6d93443886c759b1e4
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
+<<<<<<< HEAD
 height=586
+=======
+height=585
+>>>>>>> bb79735f280ef286fa17bf6d93443886c759b1e4
 package.numDependencies=0
 package.numTargets=4
 project.charset=UTF-8
@@ -23,7 +32,11 @@ readme.x=10
 readme.y=10
 simulation.speed=50
 target1.height=50
+<<<<<<< HEAD
 target1.name=A
+=======
+target1.name=a
+>>>>>>> bb79735f280ef286fa17bf6d93443886c759b1e4
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=80
