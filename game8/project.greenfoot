@@ -1,16 +1,19 @@
 #Greenfoot project file
-class.A.image=wombat.png
 class.B.image=lobster.png
-class.D.image=\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9__1_-removebg-preview.png
+class.D.image=car03-n.png
+class.MyWorld.image=pk21826PAR511371861.jpg
 class.c.image=ladybug_02.png
-class.tyrannosaurus.image=Tyrannosaurus.png
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
 height=585
 package.numDependencies=0
+<<<<<<< HEAD
 package.numTargets=6
+=======
+package.numTargets=5
+>>>>>>> c8fc5efe09598c5630876dd246e20183d3b1dc92
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -24,9 +27,9 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
-simulation.speed=50
+simulation.speed=49
 target1.height=50
-target1.name=A
+target1.name=a
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=80
@@ -54,12 +57,17 @@ target4.width=80
 target4.x=0
 target4.y=0
 target5.height=50
+<<<<<<< HEAD
 target5.name=tyrannosaurus
+=======
+target5.name=MyWorld
+>>>>>>> c8fc5efe09598c5630876dd246e20183d3b1dc92
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=100
 target5.x=0
 target5.y=0
+<<<<<<< HEAD
 target6.height=50
 target6.name=MyWorld
 target6.showInterface=false
@@ -67,8 +75,10 @@ target6.type=ClassTarget
 target6.width=80
 target6.x=0
 target6.y=0
+=======
+>>>>>>> c8fc5efe09598c5630876dd246e20183d3b1dc92
 version=3.0.0
-width=891
+width=825
 world.lastInstantiated=MyWorld
-xPosition=178
-yPosition=182
+xPosition=787
+yPosition=181
