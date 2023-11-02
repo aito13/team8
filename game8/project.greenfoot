@@ -1,6 +1,6 @@
 #Greenfoot project file
 class.A.image=Tyrannosaurus.png
-class.B.image=lobster.png
+class.B.image=Stegosaurus.png
 class.D.image=\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9__1_-removebg-preview.png
 class.c.image=ladybug_02.png
 editor.fx.0.height=0
@@ -62,5 +62,5 @@ target5.y=0
 version=3.0.0
 width=891
 world.lastInstantiated=MyWorld
-xPosition=178
-yPosition=182
+xPosition=201
+yPosition=197
