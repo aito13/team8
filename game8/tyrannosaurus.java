@@ -6,11 +6,11 @@ import greenfoot.*;
 /**
  * 
  */
-public class a extends Actor
+public class tyrannosaurus extends A
 {
 
     /**
-     * Act - do whatever the a wants to do. This method is called whenever the 'Act' or 'Run' button gets pressed in the environment.
+     * Act - do whatever the tyrannosaurus wants to do. This method is called whenever the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()
     {
