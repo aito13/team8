@@ -1,6 +1,7 @@
 #Greenfoot project file
+class.A.image=Tyrannosaurus.png
 class.B.image=lobster.png
-class.D.image=car03-n.png
+class.D.image=\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9__1_-removebg-preview.png
 class.c.image=ladybug_02.png
 editor.fx.0.height=0
 editor.fx.0.width=0
@@ -59,7 +60,7 @@ target5.width=80
 target5.x=0
 target5.y=0
 version=3.0.0
-width=825
+width=891
 world.lastInstantiated=MyWorld
-xPosition=229
-yPosition=230
+xPosition=178
+yPosition=182
