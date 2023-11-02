@@ -1,5 +1,4 @@
 #Greenfoot project file
-class.A.image=wombat.png
 class.B.image=lobster.png
 class.D.image=car03-n.png
 class.c.image=ladybug_02.png
@@ -7,7 +6,7 @@ editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
-height=629
+height=585
 package.numDependencies=0
 package.numTargets=5
 project.charset=UTF-8
@@ -62,10 +61,5 @@ target5.y=0
 version=3.0.0
 width=825
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
-xPosition=159
-yPosition=170
-=======
-xPosition=188
-yPosition=246
->>>>>>> 2e9adba3b138ff3b494b0edc90caa3e1dace9705
+xPosition=229
+yPosition=230
