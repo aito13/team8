@@ -12,8 +12,21 @@ public class A extends Actor
      * Act - do whatever the A wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    public A()
+    {
+    getImage().scale( 100, 100 );
+    }
     public void act() 
     {
-        // Add your action code here.
+        
+        if( Greenfoot.isKeyDown( "1" ) ){
+            setRotation(180);
+            move(15);
+        }
+        if( Greenfoot.isKeyDown( "2" ) ){
+            setRotation(0);
+            move(15);
+        }
+
     }    
 }
