@@ -6,8 +6,20 @@
         <import target="greenfoot.*" enable="true"/>
     </imports>
     <implements/>
-    <fields/>
-    <constructors/>
+    <fields>
+        <variable access="private" type="int" type-java="int" name="height" value="50" value-java="50" enable="true"/>
+        <variable access="private" type="int" type-java="int" name="width" value="50" value-java="50" enable="true"/>
+    </fields>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params/>
+            <throws/>
+            <body>
+                <call expression="getImage().scale(width,height)" expression-java="getImage().scale(width, height)" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
     <methods>
         <method access="public" type="void" type-java="void" name="act" enable="true">
             <javadoc xml:space="preserve">Act - do whatever the D wants to do. This method is called whenever the 'Act' or 'Run' button gets pressed in the environment.</javadoc>

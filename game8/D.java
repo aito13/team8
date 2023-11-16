@@ -8,6 +8,16 @@ import greenfoot.*;
  */
 public class D extends Actor
 {
+    private int height = 50;
+    private int width = 50;
+
+    /**
+     * 
+     */
+    public D()
+    {
+        getImage().scale(width, height);
+    }
 
     /**
      * Act - do whatever the D wants to do. This method is called whenever the 'Act' or 'Run' button gets pressed in the environment.
