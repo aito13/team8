@@ -5,6 +5,7 @@ class.C.image=dragon.png
 class.D.image=\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9__1_-removebg-preview.png
 class.MyWorld.image=pk21826PAR511371861.jpg
 <<<<<<< HEAD
+<<<<<<< HEAD
 class.c.image=ladybug_02.png
 editor.fx.0.height=739
 editor.fx.0.width=816
@@ -16,6 +17,12 @@ editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
 >>>>>>> 42c20f68729d8b049162031e7680ec702964fd31
+=======
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=273
+editor.fx.0.y=136
+>>>>>>> 7dff6f02e4e4fd7f69f0a8fe584f138e686f16e6
 height=585
 package.numDependencies=0
 package.numTargets=5
@@ -72,9 +79,14 @@ version=3.0.0
 width=825
 world.lastInstantiated=MyWorld
 <<<<<<< HEAD
+<<<<<<< HEAD
 xPosition=398
 yPosition=175
 =======
 xPosition=688
 yPosition=249
 >>>>>>> 42c20f68729d8b049162031e7680ec702964fd31
+=======
+xPosition=990
+yPosition=200
+>>>>>>> 7dff6f02e4e4fd7f69f0a8fe584f138e686f16e6
