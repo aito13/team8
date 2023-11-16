@@ -12,8 +12,21 @@ public class C extends Actor
      * Act - do whatever the C wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    public C()
+    {
+    getImage().scale( 150, 150 );
+    }
     public void act() 
     {
-        // Add your action code here.
-    }    
+        
+        if( Greenfoot.isKeyDown( "A" ) ){
+            setRotation(180);
+            move(50);
+        }
+        if( Greenfoot.isKeyDown( "D" ) ){
+            setRotation(0);
+            move(50);
+        }
+
+    } 
 }
