@@ -12,7 +12,7 @@ public class D extends Actor
     /**
      * Act - do whatever the D wants to do. This method is called whenever the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act()
+    public void act(code__dummy__gf3gen__0 invalid#)
     {
         if (Greenfoot.isKeyDown("right")) {
             setRotation(0);
