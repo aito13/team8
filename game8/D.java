@@ -1,4 +1,3 @@
-// WARNING: This file is auto-generated and any changes to it will be overwritten
 import lang.stride.*;
 import java.util.*;
 import greenfoot.*;
@@ -14,6 +13,7 @@ public class D extends Actor
      */
     public void act()
     {
+        
         if (Greenfoot.isKeyDown("right")) {
             setRotation(0);
             move(1);
