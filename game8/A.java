@@ -12,27 +12,19 @@ public class A extends Actor
      * Act - do whatever the A wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    
-    private int speed;
-    public A(int newSpeed)
+    public A()
     {
         getImage().scale( 100, 100 );
-        speed = newSpeed;
-    }
-    {
-        GreenfootImage myImage = getImage();
-        int myNewHeight = (int)myImage.getHeight()/11;
-        int myNewWidth = (int)myImage.getWidth()/4;
-        myImage.scale(myNewHeight, myNewWidth);
     }
     public void act()
     {
-        setLocation(getX(), getY() + speed);
-        if( getY() >= getWorld().getHeight() - 1 )
-        {
-            MyWorld juego = (MyWorld) getWorld();
-            juego.removeObject(this);
-            MyWorld.enemyDragon1 -= 1;
+        if( Greenfoot.isKeyDown( "1" ) ){
+            setRotation(180);
+            move(20);
+        }
+        if( Greenfoot.isKeyDown( "2" ) ){
+            setRotation(0);
+            move(20);
         }
     } 
 }

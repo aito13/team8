@@ -12,7 +12,7 @@ public class c extends Actor
      * Act - do whatever the C wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public C()
+    public c()
     {
     getImage().scale( 150, 150 );
     }
