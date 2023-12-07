@@ -32,5 +32,12 @@ public class D extends Actor
             move(1);
         }
         
+        Actor a = getOneIntersectingObject( A.class );
+        Actor b = getOneIntersectingObject( B.class );
+        Actor C = getOneIntersectingObject( c.class );
+        if( a != null || b != null || C != null){
+            getWorld().showText( "GAME OVER", 400, 200 );
+            Greenfoot.stop();
     }
+}
 }
