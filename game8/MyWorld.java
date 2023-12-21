@@ -20,6 +20,8 @@ public class MyWorld extends World
     int X_c;
     private int time;
     
+    GreenfootSound bgm = null;
+    
     
     public MyWorld()
     {    
@@ -36,6 +38,9 @@ public class MyWorld extends World
         addObject( new D(), 300, 300 );
         
         time = 3000;
+        
+        //bgm = new GreenfootSound( "received_813746806262011_1.mp3" );
+        bgm = new GreenfootSound( "黒猫のタンゴ.mp3" );
     }
     public void act(){
         time--;
@@ -48,5 +53,13 @@ public class MyWorld extends World
     private void showTime()
     {
         showText("Time: " + time/100, 550, 50);
+    }
+    public void started()
+    {
+        bgm.playLoop();
+    }
+    public void stopped()
+    {
+        bgm.stop();
     }
 }
