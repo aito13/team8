@@ -18,6 +18,7 @@ public class MyWorld extends World
     int X_a;
     int X_b;
     int X_c;
+    private int time;
     
     
     public MyWorld()
@@ -31,8 +32,21 @@ public class MyWorld extends World
         addObject( new B(), X_b, 0 );
         X_c = X_min + (int)(Math.random()*((X_max-X_min)+1));
         addObject( new c(), X_c, 0 );
-    }
-    public void start(){
         
+        addObject( new D(), 300, 300 );
+        
+        time = 500;
+    }
+    public void act(){
+        time--;
+        showTime();
+        if(time < 100){
+            showText( "GAME Clear", 300, 200 );
+            Greenfoot.stop();
+        }
+    }
+    private void showTime()
+    {
+        showText("Time: " + time/100, 550, 50);
     }
 }
