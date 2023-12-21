@@ -35,7 +35,7 @@ public class MyWorld extends World
         
         addObject( new D(), 300, 300 );
         
-        time = 500;
+        time = 3000;
     }
     public void act(){
         time--;
