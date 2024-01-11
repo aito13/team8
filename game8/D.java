@@ -23,26 +23,26 @@ public class D extends Actor
     {
         if( Greenfoot.isKeyDown( "right" ) ){
             setRotation(0);
-            move(1);
+            move(4);
         }
         if( Greenfoot.isKeyDown( "left" ) ){
             setRotation(0);
-            move(-1);
+            move(-4);
         }
-        if( Greenfoot.isKeyDown( "up" ) ){
+        /*if( Greenfoot.isKeyDown( "up" ) ){
             setRotation(-90);
             move(1);
         }
             if( Greenfoot.isKeyDown( "down" ) ){
             setRotation(90);
             move(1);
-        }
+        }*/
         
         Actor a = getOneIntersectingObject( A.class );
         Actor b = getOneIntersectingObject( B.class );
         Actor C = getOneIntersectingObject( c.class );
         if( a != null || b != null || C != null){
-            getWorld().showText( "GAME OVER", 400, 200 );
+            getWorld().showText( "GAME OVER", 300, 200 );
             Greenfoot.stop();
         }
     }
