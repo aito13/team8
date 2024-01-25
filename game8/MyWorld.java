@@ -126,7 +126,7 @@ public class MyWorld extends World
         time = 2600;
         
         //bgm = new GreenfootSound( "received_813746806262011_1.mp3" );
-        //bgm = new GreenfootSound( "黒猫のタンゴ.mp3" );
+        //bgm = new GreenfootSound( "received_813746806262011_1.mp3" );
     }
     public void act(){
         time--;
