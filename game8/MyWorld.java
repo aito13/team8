@@ -30,7 +30,7 @@ public class MyWorld extends World
     int X_c;
     private int time;
     
-    GreenfootSound bgm = null;
+    //GreenfootSound bgm = null;
     
     class TextLabelEx extends TextLabel
     {
@@ -126,7 +126,7 @@ public class MyWorld extends World
         time = 2600;
         
         //bgm = new GreenfootSound( "received_813746806262011_1.mp3" );
-        bgm = new GreenfootSound( "黒猫のタンゴ.mp3" );
+        //bgm = new GreenfootSound( "黒猫のタンゴ.mp3" );
     }
     public void act(){
         time--;
@@ -142,10 +142,10 @@ public class MyWorld extends World
     }
     public void started()
     {
-        bgm.playLoop();
+        //bgm.playLoop();
     }
     public void stopped()
     {
-        bgm.stop();
+        //bgm.stop();
     }
 }
